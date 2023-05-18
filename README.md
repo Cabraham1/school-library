@@ -1,7 +1,5 @@
-# OOP School Library
-This app manages an object-orient school library built using Ruby. It provides collection classes with several traversal and searching methods, and with the ability to sort.
-
 <a name="readme-top"></a>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -14,6 +12,7 @@ This app manages an object-orient school library built using Ruby. It provides c
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -24,39 +23,20 @@ This app manages an object-orient school library built using Ruby. It provides c
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 [OOP School Library] <a name="about-project"></a>
 
-**School Library** is a program that provides collection classes with several traversal and searching methods, and with the ability to sort.
+**[OOP School Library]** is an app to manage book rentals on a school library
 
-- Enumerable filter
-- Enumerable sort All
-- Enumerable sort any
 ## 🛠 Built With <a name="built-with"></a>
 
-- Ruby
+- Ruby ver 3.2.2
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+<summary>Language</summary>
   <ul>
-   <li>N/A</li>
-
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>Ruby</li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -64,60 +44,56 @@ This app manages an object-orient school library built using Ruby. It provides c
 
 ### Key Features <a name="key-features"></a>
 
-- Implement classes and objects in Ruby.
+- **[Follows OOP principles]**
+- **[Console application]**
+- **[key_feature_3]**
 
-- Implement encapsulation and inheritance with Ruby.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right"><a href="#readme-top">👆</a></p>
 
-<!-- LIVE DEMO --> [not yet avialable]
-
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- Getting Started -->
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To run the project locally, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
+In order to run this project you need:
 
-- Install [Git](https://git-scm.com/)
-- Install [Node](https://nodejs.org/en/)
-- Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
+Setup ruby in your local environment and then execute
 
 ### Setup
 
-Clone the repo into your local machine:
+Clone this repository to your desired folder:
 
-```bash
-git clone git@github.com:Cabraham1/school-library.git
+
+```sh
+cd my-folder
+gh repo clone git@github.com:Cabraham1/school-library.git
 ```
 
-Install the dependencies using robocop:
+### Install
 
-```bash
-npm install
+Install this project with:
+
+Example command:
+
+```sh
+  cd oop_school_library
+  gem install
 ```
 
 ### Usage
 
-To start the development server run
-```bash
-npm run start
+To run the project, execute the following command:
+
+
+```sh
+  irb
 ```
-- this command will start the development server on `localhost:8080` address
 
-To create and optimized production build run
-```bash
-npm run build
-```
-- this command will create a bunduled chunks of code inside `dist/` folder
-
-
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -129,44 +105,43 @@ npm run build
 - GitHub: [@Cabraham1](https://github.com/Cabraham1)
 - LinkedIn: [Abraham Christopher](https://www.linkedin.com/in/abrahamchristopher/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- FUTURE FEATURES -->
+<!-- FUTURE FEATURES  -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Reproduce in sound iteration.
 
-- Add frontend code
+- [ ] **[Additional classes]**
+- [ ] **[Interactive console UI]**
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Contributing -->
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Show your support -->
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project leave a start for it.
+If you like this project, feel free to fork it.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I'd like to thank Microverse for helping us in the journey to become a Fullstack developer.
+I would like to thank Microvers
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -174,4 +149,4 @@ I'd like to thank Microverse for helping us in the journey to become a Fullstack
 
 This project is [MIT](./MIT.md) licensed.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
