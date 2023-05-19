@@ -14,3 +14,10 @@ class App
     @books = []
     @rentals = []
   end
+
+  def book_list 
+    puts 'no books' if @books.empty?
+    @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
+  end
+
+  
