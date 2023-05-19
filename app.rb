@@ -8,3 +8,9 @@ require_relative './classroom'
 require_relative './rental'
 require_relative './book'
 
+class App
+  def initialize
+    @people = []
+    @books = []
+    @rentals = []
+  end
