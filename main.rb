@@ -1,5 +1,5 @@
 require_relative './app'
-class Main 
+class Main
   def self.home_page
     puts 'Welcome to School library App!'
     puts 'Please enter a number: '

@@ -15,7 +15,7 @@ class App
     @rentals = []
   end
 
-  def book_list 
+  def book_list
     puts 'no books' if @books.empty?
     @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
   end
@@ -93,7 +93,8 @@ class App
   end
 
   def create_rental
-    if @books.size.zero?
+    if if @books.empty?
+
       puts 'No book available'
 
     elsif @people.size.zero?
@@ -132,3 +133,4 @@ class App
     end
   end
 end
+
