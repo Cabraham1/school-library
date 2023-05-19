@@ -93,11 +93,11 @@ class App
   end
 
   def create_rental
-    if if @books.empty?
+    if @books.empty?
 
       puts 'No book available'
 
-    elsif @people.size.zero?
+    elsif @people.empty?
       puts 'No person available'
 
     else
@@ -133,4 +133,3 @@ class App
     end
   end
 end
-
