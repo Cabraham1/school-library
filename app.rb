@@ -39,3 +39,18 @@ class App
     end
     puts 'Person created successfully😊'
   end
+
+  def create_teacher
+    print "teacher's specialization: "
+    specialization = gets.chomp
+
+    print "teacher's age: "
+    age = gets.chomp
+
+    print "teacher's name: "
+    name = gets.chomp
+
+    teacher = Teacher.new(specialization, age, name, parent_permission: true)
+    puts 'Teacher created successfully 😊'
+    @people.push(teacher)
+  end
